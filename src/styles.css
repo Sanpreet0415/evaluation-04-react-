@@ -1,0 +1,145 @@
+.container {
+    display: flex;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #333;
+    padding-top: 20px;
+    z-index: 100;
+  }
+  
+  .sidebar-nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-nav li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-nav li a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .sidebar-nav li a:hover {
+    background-color: #555;
+  }
+  
+  .main-content {
+    flex: 1;
+    margin-left: 200px;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .content-box {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .section-heading {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .profile-section,
+  .projects-section,
+  .bio-section {
+    margin-top: 20px;
+  }
+  
+  .profile-picture img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .file-input {
+    margin-top: 10px;
+  }
+  
+  .file-input input {
+    display: none;
+  }
+  
+  .projects-section .screenshots {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .projects-section .screenshots img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .bio .bold {
+    font-weight: bold;
+  }
+  
+  .bio .description {
+    font-size: 14px;
+  }
+  
+  .section {
+    margin-bottom: 10px;
+  }
+  
+  .resume .section .small button {
+    margin-left: 10px;
+    background-color: #3182ce;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .resume .section .small button:hover {
+    background-color: #2c5282;
+  }
+  
+  .edit-mode .name {
+    font-size: 24px;
+    color: #3182ce;
+  }
+  
+  .edit-mode .job-details {
+    font-style: italic;
+  }
+  
+  .edit-mode .bio .bold {
+    font-weight: normal;
+  }
+  
+  .edit-mode .bio .description {
+    font-size: 16px;
+  }
+  
+  .name.editable {
+    color: blue;
+  }
+  
+  .job-details.editable {
+    font-style: italic;
+  }
+  
+  .bio.editable {
+    font-size: 16px;
+  }
+  
+  
